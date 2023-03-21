@@ -26,14 +26,14 @@ margin-right: 0;
 #navbar a {
 color: #fff;
 text-decoration: none;
--webkit-text-stroke: 1px white; /* add a black border around the letter */
-text-stroke: 1px white; /* add a black border around the letter */
+-webkit-text-stroke: 0.5px white; /* add a black border around the letter */
+text-stroke: 0.5px white; /* add a black border around the letter */
 }
 #navbar a:hover {
 text-decoration: none;
 color: transparent; /* hide the color inside the letter */
--webkit-text-stroke: 1px white; /* add a black border around the letter */
-text-stroke: 1px white; /* add a black border around the letter */
+-webkit-text-stroke: 0.5px white; /* add a black border around the letter */
+text-stroke: 0.5px white; /* add a black border around the letter */
 
 }
 
