@@ -1,0 +1,71 @@
+/* Barre de navigation */
+
+#navigation {
+    background-color: #B3005E; /* Couleur de fond de la barre de navigation */
+    overflow: hidden; /* Empêche les éléments enfants de déborder de la barre de navigation */
+}
+
+#navigation ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Place les éléments de la liste sur une même ligne */
+    justify-content:space-around; /* Centre les éléments de la liste horizontalement */
+}
+
+#navigation li {
+    float: left; /* Place chaque élément de la liste sur la même ligne */
+}
+
+#navigation a {
+    display: block; /* Affiche le lien en tant que bloc pour occuper toute la largeur de l'élément parent */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Centre le texte horizontalement */
+    padding: 14px 16px; /* Ajoute un espace autour du texte */
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+    font-size: 25px; /* Taille du texte */
+}
+
+#navigation a:hover {
+    color: #060047; /* Change la couleur du texte au survol */
+}
+  
+
+
+
+/* Images centrale et titre */
+
+.top {
+    background-image: url("../images/magasin_epi_fleuri.jpeg"); /* Image de fond */
+    background-repeat: no-repeat; /* L'image ne se répète pas */
+    background-position: center; /* Centre l'image de fond */
+    display: flex; /* Permet de centrer les éléments enfants de la div */
+    align-items: center; /* Centre verticalement le titre */
+    justify-content: center; /* Centre horizontalement le titre */
+}
+
+.top h1 {
+    color: white; /* Couleur du texte */
+    font-size: 3rem; /* Taille du titre */
+    text-align: center; /* Centre le texte horizontalement */
+}
+
+
+/* Image avec texte à coté */
+
+.container {
+    display: flex; /* Permet d'afficher l'image et le texte côte à côte */
+    align-items: center; /* Centre verticalement les éléments de la div */
+    justify-content: center; /* Centre horizontalement les éléments de la div */
+}
+
+.container img {
+    width: 50%; /* Ajuste la largeur de l'image */
+    margin-right: 1em; /* Ajoute une marge à droite de l'image pour l'éloigner du texte */
+}
+
+.container p {
+    width: 50%; /* Ajuste la largeur du paragraphe */
+    text-align: justify; /* Justifie le texte */
+}
+  
