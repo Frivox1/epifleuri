@@ -1,71 +1,182 @@
-/* Barre de navigation */
-
-#navigation {
-    background-color: #B3005E; /* Couleur de fond de la barre de navigation */
-    overflow: hidden; /* Empêche les éléments enfants de déborder de la barre de navigation */
+/* Navigation Bar */
+#navbar {
+background-color: pink;
+height: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px; /* add padding */
 }
 
-#navigation ul {
-    list-style-type: none; /* Supprime les puces de la liste */
+#navbar ul {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+}
+
+#navbar li {
+margin-left: 20px;
+}
+
+#navbar li:last-child {
+margin-right: 0;
+}
+
+#navbar a {
+color: #fff;
+text-decoration: none;
+-webkit-text-stroke: 1px white; /* add a black border around the letter */
+text-stroke: 1px white; /* add a black border around the letter */
+}
+#navbar a:hover {
+text-decoration: none;
+color: transparent; /* hide the color inside the letter */
+-webkit-text-stroke: 1px white; /* add a black border around the letter */
+text-stroke: 1px white; /* add a black border around the letter */
+
+}
+
+#logo {
+display: flex;
+align-items: center;
+}
+
+#logo img {
+height: 40px;
+width: 40px;
+margin-right: 20px;
+border-radius: 10px;
+}
+
+#navbar ul {
+display: flex;
+align-items: center;
+}
+
+/* Banner */
+#banner {
+background-image: url('magasin_epi_fleuri.jpeg');
+background-size: cover;
+background-position: center;
+height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 5%;
+}
+
+#banner-text {
+text-align: center;
+color: #fff;
+}
+
+/* Product grid */
+.product-grid {
+display: flex;
+flex-wrap: wrap;
+justify-content: center; /* change to center */
+margin-top: 50px;
+align-items: center;
+align-self: center;
+}
+
+.product-grid-item {
+display: flex;
+align-items: center;
+width: 100%;
+margin-bottom: 5%;
+}
+
+.product-grid-item:nth-child(odd) {
+flex-direction: row-reverse;
+}
+
+.product-grid-item img {
+max-width: 35%;
+border-radius: 20px;
+margin-right: 20px;
+margin: auto; /* change to auto */
+}
+
+.product-grid-item .description {
+width: 45%;
+font-size: 1.2rem;
+text-align: justify;
+margin-right: 20px;
+margin: auto; /* change to auto */
+}
+
+footer {
+    background-color: #B3005E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .footer-nav {
+    display: flex;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Place les éléments de la liste sur une même ligne */
-    justify-content:space-around; /* Centre les éléments de la liste horizontalement */
-}
-
-#navigation li {
-    float: left; /* Place chaque élément de la liste sur la même ligne */
-}
-
-#navigation a {
-    display: block; /* Affiche le lien en tant que bloc pour occuper toute la largeur de l'élément parent */
-    color: #fff; /* Couleur du texte */
-    text-align: center; /* Centre le texte horizontalement */
-    padding: 14px 16px; /* Ajoute un espace autour du texte */
-    text-decoration: none; /* Supprime le soulignement par défaut des liens */
-    font-size: 25px; /* Taille du texte */
-}
-
-#navigation a:hover {
-    color: #060047; /* Change la couleur du texte au survol */
-}
+    display: flex;
+  }
   
-
-
-
-/* Images centrale et titre */
-
-.top {
-    background-image: url("../images/magasin_epi_fleuri.jpeg"); /* Image de fond */
-    background-repeat: no-repeat; /* L'image ne se répète pas */
-    background-position: center; /* Centre l'image de fond */
-    display: flex; /* Permet de centrer les éléments enfants de la div */
-    align-items: center; /* Centre verticalement le titre */
-    justify-content: center; /* Centre horizontalement le titre */
-}
-
-.top h1 {
-    color: white; /* Couleur du texte */
-    font-size: 3rem; /* Taille du titre */
-    text-align: center; /* Centre le texte horizontalement */
-}
-
-
-/* Image avec texte à coté */
-
-.container {
-    display: flex; /* Permet d'afficher l'image et le texte côte à côte */
-    align-items: center; /* Centre verticalement les éléments de la div */
-    justify-content: center; /* Centre horizontalement les éléments de la div */
-}
-
-.container img {
-    width: 50%; /* Ajuste la largeur de l'image */
-    margin-right: 1em; /* Ajoute une marge à droite de l'image pour l'éloigner du texte */
-}
-
-.container p {
-    width: 50%; /* Ajuste la largeur du paragraphe */
-    text-align: justify; /* Justifie le texte */
-}
+  .footer-nav li {
+    margin-left: 10px;
+  }
   
+  .footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }  
+#banner h1 {
+font-size: 4rem;
+font-weight: bold;
+margin-top: 1rem;
+margin-bottom: 1rem;
+text-align: center;
+color: #fff;
+} 
+#banner h3 {
+font-size: 2rem;
+font-weight: 1;
+margin-top: 1rem;
+margin-bottom: 1rem;
+text-align: center;
+color: #fff;
+}   
+html, body {
+background-color: pink;
+margin: 0; /* Set margin to 0 to remove the default margin */
+padding: 0; /* Set padding to 0 to remove the default padding */
+font-family: 'Aclonica';
+color: #ffffff;
+}
+button {
+background-color: #FFC0CB;
+border: none;
+border-radius: 30px;
+color: #fff;
+cursor: pointer;
+font-size: 16px;
+padding: 10px 20px;
+transition: background-color 0.3s ease;
+border: 2px solid #FFC0CB;
+}
+
+button:hover {
+background-color: transparent;
+border: 2px solid #FFC0CB;
+}
+

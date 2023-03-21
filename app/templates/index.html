@@ -6,25 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style/style-main.css') }}">
     <title>L'Epi Fleuri</title>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
 </head>
 <body>
-
-    <div id="navigation">
+    <nav id="navbar">
+        <div id="logo"><img src="{{ url_for('static', filename='images/fleur_jaune.jpeg') }}" alt="Logo"></div>
         <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Produits</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produits.html">Produits</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
-    </div>
-    
-    <div class="top">
+    </nav>
+    <section id="banner">
+        <div id="banner-text">
         <h1>L'Epi Fleuri</h1>
-    </div>
-
-    <div class="container">
-        <img src="static/images/fleur_rose.jpeg" height="200px">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam non quam lacus suspendisse faucibus interdum posuere. Et tortor at risus viverra adipiscing at in</p>
-    </div>
-
+        <h3>Magasin de fleur dans ta région</h3>
+        <button>Nos fleurs</button>
+        </div>
+    </section>
+    <section id="products-grid">
+        <div class="product-grid-item">
+            <img src="{{ url_for('static', filename='images/fleur_jaune.jpeg') }}" alt="Product 1">
+            <div class="description">
+                <h2>Fleur Jaune</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</p>
+            </div>
+        </div>
+        <div class="product-grid-item">
+            <img src="{{ url_for('static', filename='images/fleur_rouge:blanc.jpeg') }}" alt="Product 2">
+            <div class="description">
+                <h2>Fleur Rouge & Blanc</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</p>
+            </div>
+        </div>
+        <div class="product-grid-item">
+            <img src="{{ url_for('static', filename='images/fleur_rose.jpeg') }}" alt="Product 3">
+            <div class="description">
+                <h2>Fleur Rose</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</p>
+            </div>
+        </div>
+    </section>
 </body>
-</html>
+<footer>
+    <p>&copy; 2023 L'Epi Fleuri</p>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="#">Mentions légales</a></li>
+        <li><a href="#">Politique de confidentialité</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </nav>
+    <script>
+        $(document).ready(function() {
+            var navbarHeight = $('nav').height();
+            var footerHeight = $('footer').height();
+            var windowHeight = $(window).height();
+          
+            $(window).scroll(function() {
+              var scrollPos = $(this).scrollTop();
+              var maxScroll = $(document).height() - windowHeight;
+          
+              if (scrollPos < navbarHeight) {
+                $(window).scrollTop(navbarHeight);
+              }
+              else if (scrollPos > maxScroll - footerHeight) {
+                $(window).scrollTop(maxScroll - footerHeight);
+              }
+            });
+          });             
+    </script> 
+  </footer>
+</html>     
