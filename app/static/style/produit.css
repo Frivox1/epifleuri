@@ -62,9 +62,9 @@ h1 {
   background-position: center !important;
   height: 30vmax;
   padding: 1em 2em;
-  background: rgb(249, 169, 183);
+  background: #f8ccb2;
   border-radius: 15px;
-  box-shadow: 0 0 20px rgb(226, 147, 165);
+  box-shadow: 0 0 20px #f7bd9b;
   padding: 20px;
 }
 .flip > .front p, .flip > .back p {
