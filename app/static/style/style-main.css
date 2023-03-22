@@ -1,57 +1,3 @@
-/* Navigation Bar */
-#navbar {
-background-color: pink;
-height: 60px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 0 20px; /* add padding */
-}
-
-#navbar ul {
-list-style: none;
-display: flex;
-margin: 0;
-padding: 0;
-}
-
-#navbar li {
-margin-left: 20px;
-}
-
-#navbar li:last-child {
-margin-right: 0;
-}
-
-#navbar a {
-color: #fff;
-text-decoration: none;
--webkit-text-stroke: 0.5px white; /* add a black border around the letter */
-}
-#navbar a:hover {
-text-decoration: none;
-color: transparent; /* hide the color inside the letter */
--webkit-text-stroke: 0.5px white; /* add a black border around the letter */
-
-}
-
-#logo {
-display: flex;
-align-items: center;
-}
-
-#logo img {
-height: 40px;
-width: 40px;
-margin-right: 20px;
-border-radius: 10px;
-}
-
-#navbar ul {
-display: flex;
-align-items: center;
-}
-
 /* Banner */
 #banner {
 background-image: url('magasin_epi_fleuri.jpeg');
@@ -106,40 +52,7 @@ text-align: justify;
 margin-right: 20px;
 margin: auto; /* change to auto */
 }
-
-footer {
-    background-color: #B3005E;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
   
-  footer p {
-    margin: 0;
-    font-size: 0.9rem;
-  }
-  
-  .footer-nav {
-    display: flex;
-  }
-  
-  .footer-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .footer-nav li {
-    margin-left: 10px;
-  }
-  
-  .footer-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 0.9rem;
-  }  
 #banner h1 {
 font-size: 4rem;
 font-weight: bold;

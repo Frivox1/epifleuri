@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style/footer.css') }}">
+<footer>
+<p>&copy; 2023 L'Epi Fleuri</p>
+<nav class="footer-nav">
+    <ul>
+    <li><a href="#">Mentions légales</a></li>
+    <li><a href="#">Politique de confidentialité</a></li>
+    <li><a href="#">FAQ</a></li>
+    </ul>
+</nav>
+<script>
+    $(document).ready(function() {
+        var navbarHeight = $('nav').height();
+        var footerHeight = $('footer').height();
+        var windowHeight = $(window).height();
+        
+        $(window).scroll(function() {
+            var scrollPos = $(this).scrollTop();
+            var maxScroll = $(document).height() - windowHeight;
+        
+            if (scrollPos < navbarHeight) {
+            $(window).scrollTop(navbarHeight);
+            }
+            else if (scrollPos > maxScroll - footerHeight) {
+            $(window).scrollTop(maxScroll - footerHeight);
+            }
+        });
+        });             
+</script> 
+</footer>
