@@ -1,0 +1,24 @@
+{% include "header.html" %}
+<link rel="stylesheet" href="{{ url_for('static', filename='style/produit.css') }}">
+<div class="gallery">
+  <div class="image-container">
+    <img src="{{ url_for('static', filename='images/fleur_jaune.jpeg') }}" alt="Image 1">
+    <div class="image-text">
+      <p>Text about Image 1</p>
+    </div>
+  </div>
+  <div class="image-container">
+    <img src="{{ url_for('static', filename='images/fleur_jaune.jpeg') }}" alt="Image 2">
+    <div class="image-text">
+      <p>Text about Image 2</p>
+    </div>
+  </div>
+  <div class="image-container">
+    <img src="{{ url_for('static', filename='images/fleur_jaune.jpeg') }}" alt="Image 3">
+    <div class="image-text">
+      <p>Text about Image 3</p>
+    </div>
+  </div>
+  <!-- Repeat this structure for as many images as you want -->
+</div>
+{% include "footer.html" %}

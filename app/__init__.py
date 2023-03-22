@@ -6,5 +6,10 @@ app = Flask(__name__)
 def accueil():
   return render_template("index.html")
 
+@app.route("/produit")
+def prod():
+  return render_template("produit.html")
+
+
 if __name__ == "__main__":
   app.run()
