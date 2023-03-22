@@ -1,24 +1,42 @@
 {% include "header.html" %}
 <link rel="stylesheet" href="{{ url_for('static', filename='style/produit.css') }}">
-<div class="gallery">
-  <div class="image-container">
-    <img src="{{ url_for('static', filename='images/fleur_jaune.jpeg') }}" alt="Image 1">
-    <div class="image-text">
-      <p>Text about Image 1</p>
+<br>
+<h2>Nos Fleurs</h2>
+<br>
+<div class="flip flip-vertical">
+    <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_jaune.jpeg') }})">
+       <h1 class="text-shadow">Fleur Jaune</hi>
     </div>
-  </div>
-  <div class="image-container">
-    <img src="{{ url_for('static', filename='images/fleur_jaune.jpeg') }}" alt="Image 2">
-    <div class="image-text">
-      <p>Text about Image 2</p>
+    <div class="back">
+       <h2>Fleur Jaune</h2>
+       <p>De superbes fleurs, réalisées par Epifleuri</p>
     </div>
-  </div>
-  <div class="image-container">
-    <img src="{{ url_for('static', filename='images/fleur_jaune.jpeg') }}" alt="Image 3">
-    <div class="image-text">
-      <p>Text about Image 3</p>
+</div>
+<div class="flip flip-vertical">
+    <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_jaune.jpeg') }})">
+       <h1 class="text-shadow">Fleur Jaune</hi>
     </div>
-  </div>
-  <!-- Repeat this structure for as many images as you want -->
+    <div class="back">
+       <h2>Fleur Jaune</h2>
+       <p>De superbes fleurs, réalisées par Epifleuri</p>
+    </div>
+</div>
+<div class="flip flip-vertical">
+    <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_jaune.jpeg') }})">
+       <h1 class="text-shadow">Fleur Jaune</hi>
+    </div>
+    <div class="back">
+       <h2>Fleur Jaune</h2>
+       <p>De superbes fleurs, réalisées par Epifleuri</p>
+    </div>
+</div>
+<div class="flip flip-vertical">
+    <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_jaune.jpeg') }})">
+       <h1 class="text-shadow">Fleur Jaune</hi>
+    </div>
+    <div class="back">
+       <h2>Fleur Jaune</h2>
+       <p>De superbes fleurs, réalisées par Epifleuri</p>
+    </div>
 </div>
 {% include "footer.html" %}
