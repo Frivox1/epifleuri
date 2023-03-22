@@ -27,13 +27,11 @@ margin-right: 0;
 color: #fff;
 text-decoration: none;
 -webkit-text-stroke: 0.5px white; /* add a black border around the letter */
-text-stroke: 0.5px white; /* add a black border around the letter */
 }
 #navbar a:hover {
 text-decoration: none;
 color: transparent; /* hide the color inside the letter */
 -webkit-text-stroke: 0.5px white; /* add a black border around the letter */
-text-stroke: 0.5px white; /* add a black border around the letter */
 
 }
 
@@ -58,12 +56,14 @@ align-items: center;
 #banner {
 background-image: url('magasin_epi_fleuri.jpeg');
 background-size: cover;
-background-position: center;
-height: 500px;
+background-position: top center;
 display: flex;
 justify-content: center;
 align-items: center;
 margin-bottom: 5%;
+padding: 0;
+min-width: 100%;
+height: 70vh;
 }
 
 #banner-text {
