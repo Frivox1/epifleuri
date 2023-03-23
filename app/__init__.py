@@ -10,6 +10,10 @@ def accueil():
 def prod():
   return render_template("produit.html")
 
+@app.route("/informations")
+def info():
+  return render_template("informations.html")
+
 
 if __name__ == "__main__":
   app.run()
