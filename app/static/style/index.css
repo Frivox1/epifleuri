@@ -92,4 +92,22 @@ button:hover {
 background-color: transparent;
 border: 2px solid #f8ccb2;
 }
-
+.testimonial{
+    padding: 0 15px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.testimonial .description{
+    padding: 0 15px;
+    font-size: 13px;
+    color: #fff;
+    line-height: 26px;
+}
+.testimonial .testimonial-title{
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #f7ad82;
+    text-transform: uppercase;
+    position: flex;
+}

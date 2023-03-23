@@ -1,7 +1,30 @@
 {% include "header.html" %}
 <link rel="stylesheet" href="{{ url_for('static', filename='style/produit.css') }}">
-<br>
+<section id="banner">
+</section>
 <h2>Nos Fleurs</h2>
+<div class="principale">
+    <ul>
+      <li class="ligne">
+        <span class="nombre">?</span>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
+      </li>
+      <li class="ligne">
+        <span class="nombre">?</span>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
+      </li>   
+      <li class="ligne">
+        <span class="nombre">?</span>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
+      </li> 
+      <li class="ligne">
+        <span class="nombre">?</span>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
+      </li>                  
+    </ul>
+  </div>
+  <br>
+  <br>
 <div class="flip flip-vertical">
     <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_jaune.jpeg') }})">
        <h1 class="text-shadow">Fleurs Jaunes</hi>
@@ -35,6 +58,24 @@
     </div>
     <div class="back">
        <h2>Fleur Jaune</h2>
+       <p>De superbes fleurs, réalisées par Epifleuri</p>
+    </div>
+</div>
+<div class="flip flip-vertical">
+    <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_rouge:blanc.jpeg') }})">
+       <h1 class="text-shadow">Fleurs Blanches</hi>
+    </div>
+    <div class="back">
+       <h2>Fleurs Blanches</h2>
+       <p>De superbes fleurs, réalisées par Epifleuri</p>
+    </div>
+</div>
+<div class="flip flip-vertical">
+    <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_rose.jpeg') }})">
+       <h1 class="text-shadow">Fleur Rose</hi>
+    </div>
+    <div class="back">
+       <h2>Fleur Rose</h2>
        <p>De superbes fleurs, réalisées par Epifleuri</p>
     </div>
 </div>

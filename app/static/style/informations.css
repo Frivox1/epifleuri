@@ -13,7 +13,10 @@
     height: 70vh;
     opacity: 0.8;
 }
-
+#map {
+  height: 400px;
+  width: 100%;
+}
 
 /* Style pour les titres */
 h2, h3 {

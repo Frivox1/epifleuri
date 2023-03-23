@@ -14,5 +14,23 @@
 <h3>Vous désirez nous suivre sur notre page Facebook ?</h3>
 <p>Rejoignez notre page ! <a href=https://www.facebook.com/lepifleuri>Page Facebook L'Epifleuri</a></p>
 <br>
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPe4yOHMcE85NHLjuu_Ecq5KXbMbNd7Fs"></script>
+<div id="map"></div>
+<script>
+    function initMap() {
+        var myLatLng = { lat: 50.629951, lng: 4.869690 };
+      
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: myLatLng
+        });
+      
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: "L'Epifleuri"
+        });
+      }
+    initMap();
+</script>      
 {% include "footer.html" %}
