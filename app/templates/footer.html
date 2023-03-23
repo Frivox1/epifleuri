@@ -8,23 +8,4 @@
     <li><a href="#">FAQ</a></li>
     </ul>
 </nav>
-<script>
-    $(document).ready(function() {
-        var navbarHeight = $('nav').height();
-        var footerHeight = $('footer').height();
-        var windowHeight = $(window).height();
-        
-        $(window).scroll(function() {
-            var scrollPos = $(this).scrollTop();
-            var maxScroll = $(document).height() - windowHeight;
-        
-            if (scrollPos < navbarHeight) {
-            $(window).scrollTop(navbarHeight);
-            }
-            else if (scrollPos > maxScroll - footerHeight) {
-            $(window).scrollTop(maxScroll - footerHeight);
-            }
-        });
-        });             
-</script> 
 </footer>
