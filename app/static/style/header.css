@@ -1,5 +1,5 @@
 html, body {
-    background-color: #f8ccb2;
+    background-color: #ffc47b;
     margin: 0; /* Set margin to 0 to remove the default margin */
     padding: 0; /* Set padding to 0 to remove the default padding */
     font-family: 'Aclonica';
@@ -7,7 +7,7 @@ html, body {
     }
 /* Navigation Bar */
 #navbar {
-    background-color: #f8ccb2;
+    background-color: #ffc47b;
     height: 60px;
     display: flex;
     justify-content: space-between;

@@ -12,6 +12,11 @@ min-width: 100%;
 height: 70vh;
 }
 
+#titre {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
 #banner-text {
 text-align: center;
 color: #fff;
@@ -53,15 +58,15 @@ margin-right: 20px;
 margin: auto; /* change to auto */
 }
   
-#banner h1 {
-font-size: 4rem;
+#banner-text h1 {
+font-size: 7rem;
 font-weight: bold;
 margin-top: 1rem;
 margin-bottom: 1rem;
 text-align: center;
 color: #fff;
 } 
-#banner h3 {
+#banner-text h3 {
 font-size: 2rem;
 font-weight: 1;
 margin-top: 1rem;
@@ -70,7 +75,7 @@ text-align: center;
 color: #fff;
 }   
 html, body {
-background-color: pink;
+background-image: linear-gradient(120deg, #ffb459 0%, #d57eeb 100%); 
 margin: 0; /* Set margin to 0 to remove the default margin */
 padding: 0; /* Set padding to 0 to remove the default padding */
 font-family: 'Aclonica';
@@ -82,8 +87,8 @@ border: none;
 border-radius: 30px;
 color: #fff;
 cursor: pointer;
-font-size: 16px;
-padding: 10px 20px;
+font-size: 28px;
+padding: 15px 25px;
 transition: background-color 0.3s ease;
 border: 2px solid #f8ccb2;
 }

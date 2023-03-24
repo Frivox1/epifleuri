@@ -1,5 +1,8 @@
+html, body{
+  background-color: #EB7ECB;
+}
 footer {
-    background-color: #B3005E;
+    background-color: #EB7ECB;
     color: white;
     display: flex;
     justify-content: space-between;
