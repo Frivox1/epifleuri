@@ -64,9 +64,9 @@ h1 {
   background-position: center !important;
   height: 30vmax;
   padding: 1em 2em;
-  background: #f8ccb2;
+  background: #DB4893;
   border-radius: 15px;
-  box-shadow: 0 0 20px #f7bd9b;
+  box-shadow: 0 0 12px #ED4EA0;
   padding: 20px;
 }
 .flip > .front p, .flip > .back p {
