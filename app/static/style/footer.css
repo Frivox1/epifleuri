@@ -3,7 +3,11 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    background-color: #ffd3f6;
   }
+html{
+  background-color: #ffd3f6;
+}
   
   footer p {
     margin: 0;

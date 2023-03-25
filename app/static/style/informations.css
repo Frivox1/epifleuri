@@ -18,8 +18,9 @@
   width: 100%;
 }
 
-body {
-  background-image: linear-gradient(120deg, #ffb459 0%, #d57eeb 100%);
+html, body {
+  /* background-image: linear-gradient(120deg, #ffb459 0%, #d57eeb 100%); */
+background-color: #FFC0CB;
 }
 /* Style pour les titres */
 h2, h3 {
