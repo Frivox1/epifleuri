@@ -76,14 +76,14 @@ color: #fff;
 }   
 html, body {
 /* background-image: linear-gradient(120deg, #ffb459 0%, #d57eeb 100%); */
-background-color: #FFC0CB;
+background-color: #ED1E56;
 margin: 0; /* Set margin to 0 to remove the default margin */
 padding: 0; /* Set padding to 0 to remove the default padding */
 font-family: 'Aclonica';
 color: #ffffff;
 }
 button {
-background-color: #DB4893;
+background-color: #C6CC27;
 border: none;
 border-radius: 30px;
 color: #fff;
@@ -91,12 +91,12 @@ cursor: pointer;
 font-size: 28px;
 padding: 15px 25px;
 transition: background-color 0.3s ease;
-border: 2px solid #DB4893;
+border: 2px solid #C6CC27;
 }
 
 button:hover {
 background-color: transparent;
-border: 2px solid #DB4893;
+border: 2px solid #C6CC27;
 }
 .testimonial{
     padding: 0 15px;
@@ -113,7 +113,7 @@ border: 2px solid #DB4893;
 .testimonial .testimonial-title{
     font-size: 14px;
     letter-spacing: 3px;
-    color: #f7ad82;
+    color: #C6CC27;
     text-transform: uppercase;
     position: flex;
 }
