@@ -6,7 +6,7 @@
 body, html {
   text-align: center;
   /* background-image: linear-gradient(120deg, #ffb459 0%, #d57eeb 100%); */
-  background-color: #ED1E56;
+  background-color: #d83271;
 }
 h1 {
   font-size: 1.5em;
@@ -147,7 +147,7 @@ color: #fff;
 }
 
 .navbar {
-  background-color: #ED1E56;
+  background-color: #d83271;
   border: none;
   border-radius: 0;
   margin-bottom: 0;
