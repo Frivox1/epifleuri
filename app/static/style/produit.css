@@ -6,7 +6,7 @@
 body, html {
   text-align: center;
   /* background-image: linear-gradient(120deg, #ffb459 0%, #d57eeb 100%); */
-  background-color: #d83271;
+  background-color: #C6CC27;
 }
 h1 {
   font-size: 1.5em;
@@ -64,9 +64,8 @@ h1 {
   background-position: center !important;
   height: 30vmax;
   padding: 1em 2em;
-  background: #DB4893;
+  background: #d83271;
   border-radius: 15px;
-  box-shadow: 0 0 12px #ED4EA0;
   padding: 20px;
 }
 .flip > .front p, .flip > .back p {
@@ -92,7 +91,9 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 2%;
+    margin-left: 2%;
+    text-align: justify;
   }
   
   .ligne span {
@@ -104,7 +105,7 @@ ul {
   
   .nombre {
     font-size: 34px;
-    color: #f7ad82;
+    color: #d83271;
   }
   #banner {
     background-image: url('interieur.jpeg');
@@ -147,7 +148,6 @@ color: #fff;
 }
 
 .navbar {
-  background-color: #d83271;
   border: none;
   border-radius: 0;
   margin-bottom: 0;
@@ -170,6 +170,6 @@ color: #fff;
 
 .navbar a.selected,
 .navbar a:hover {
-  color: #C6CC27;
+  color: #d83271;
 }
 

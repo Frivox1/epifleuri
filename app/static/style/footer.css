@@ -3,10 +3,10 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #C6CC27;
+    background-color: #d83271;
   }
 html{
-  background-color: #ED1E56;
+  background-color: #d83271;;
 }
   
   footer p {

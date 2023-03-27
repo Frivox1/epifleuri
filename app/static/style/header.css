@@ -6,7 +6,7 @@ html, body {
     }
 /* Navigation Bar */
 #navbar {
-    background-color: #C6CC27;
+    background-color: #d83271;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -32,12 +32,10 @@ html, body {
 #navbar a {
     color: #fff;
     text-decoration: none;
-    -webkit-text-stroke: 0.5px white; /* add a black border around the letter */
+    font-size: 1rem;
 }
 #navbar a:hover {
-    text-decoration: none;
-    color: transparent; /* hide the color inside the letter */
-    -webkit-text-stroke: 0.5px white; /* add a black border around the letter */
+    text-decoration: underline;
 }
 
 #logo {
