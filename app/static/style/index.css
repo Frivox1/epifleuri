@@ -95,87 +95,32 @@ button:hover {
 background-color: #d8327282;
 border: 2px solid #d83271;
 }
+
 .testimonial{
-    padding: 0 15px;
-    text-align: center;
-    align-items: center;
-    margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #e47ba3;
+  border-radius: 20px;
+  height: 150px; /* Set a fixed height for all testimonial bubbles */
 }
+
 .testimonial .description{
-    padding: 0 15px;
-    font-size: 13px;
-    color: #fff;
-    line-height: 26px;
+  font-size: 13px;
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+  margin: auto;
 }
+
 .testimonial .testimonial-title{
-    font-size: 14px;
-    letter-spacing: 3px;
-    color: #d83271;
-    text-transform: uppercase;
-    position: flex;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #d83271;
+  text-transform: uppercase;
+  margin-top: 10px;
 }
-
-#falling-flowers img {
-    position: absolute;
-    opacity: 0;
-    animation-name: fall;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    width: 30px;
-  }
-  
-  @keyframes fall {
-    0% {
-      opacity: 0;
-      transform: translate(0, -200%);
-    }
-    1% {
-      opacity: 1;
-      transform: translate(calc(var(--x) * 100vw), calc(-50px));
-    }
-    100% {
-      transform: translate(calc(var(--x) * 100vw), calc(100vh + 50px));
-    }
-  }
-
-  #falling-flowers img:nth-child(1) {
-    --x: 0.1;
-    left: 10%;
-  }
-  #falling-flowers img:nth-child(2) {
-    --x: 0.2;
-    left: 20%;
-  }
-  #falling-flowers img:nth-child(3) {
-    --x: 0.3;
-    left: 30%;
-  }
-  #falling-flowers img:nth-child(4) {
-    --x: 0.4;
-    left: 40%;
-  }
-  #falling-flowers img:nth-child(5) {
-    --x: 0.5;
-    left: 50%;
-  }
-  
-  /* Définir un délai aléatoire pour chaque fleur */
-  #falling-flowers img:nth-child(1) {
-    animation-delay: 0.5s;
-  }
-  #falling-flowers img:nth-child(2) {
-    animation-delay: 1.2s;
-  }
-  #falling-flowers img:nth-child(3) {
-    animation-delay: 0.8s;
-  }
-  #falling-flowers img:nth-child(4) {
-    animation-delay: 1.5s;
-  }
-  #falling-flowers img:nth-child(5) {
-    animation-delay: 0.2s;
-  }
-  /* Ajoutez autant de règles pour chaque fleur que vous le souhaitez */
-  

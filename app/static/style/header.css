@@ -4,7 +4,7 @@ html, body {
     font-family: 'Aclonica';
     color: #ffffff;
     }
-/* Navigation Bar */
+
 #navbar {
     background-color: #d83271;
     height: 60px;
@@ -28,12 +28,21 @@ html, body {
 #navbar li:last-child {
     margin-right: 0;
 }
-
-#navbar a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1rem;
+@media (min-width: 769px) {
+    #navbar a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1rem;
+    }
 }
+@media (max-width: 769px) {
+    #navbar a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 0.6rem;
+    }
+}
+
 #navbar a:hover {
     text-decoration: underline;
 }
