@@ -5,14 +5,207 @@
 </section>
 
 <nav class="navbar">
-   <a href="#f" id="flowers" class="selected">Fleurs</a>
-   <a href="#p" id="plants">Plantes</a>
-   <a href="#d" id="decoration">Decoration</a>
+   <a href="#f" id="printemps" class="selected">Printemps</a>
+   <a href="#p" id="automne">Automne</a>
+   <a href="#h" id="hiver">Hiver</a>
+   <a href="#a" id="all">Année</a>
    <div id="indicator"></div>
 </nav>
 
-<section id="flower-section">
-   <h2>Nos Fleurs</h2>
+<section id="printemps-section">
+   <h2>Printemps</h2>
+   <div class="principale">
+      <ul>
+         <li class="ligne">
+         <span class="nombre">?</span>
+         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
+         </li>
+         <li class="ligne">
+         <span class="nombre">?</span>
+         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
+         </li>   
+         <li class="ligne">
+         <span class="nombre">?</span>
+         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
+         </li> 
+         <li class="ligne">
+         <span class="nombre">?</span>
+         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
+         </li>                  
+      </ul>
+   </div>
+   <br>
+   <br>
+   <!-- PRINTEMPS -->
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/tulipes.jpeg') }})">
+         <h1 class="text-shadow">Tulipes</hi>
+      </div>
+      <div class="back">
+         <h2>Tulipes</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/jonquilles.jpeg') }})">
+         <h1 class="text-shadow">Jonquilles</hi>
+      </div>
+      <div class="back">
+         <h2>Jonquilles</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/renoncules.jpeg') }})">
+         <h1 class="text-shadow">Renoncules</hi>
+      </div>
+      <div class="back">
+         <h2>Renoncules</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/fresias.jpeg') }})">
+         <h1 class="text-shadow">Fresias</hi>
+      </div>
+      <div class="back">
+         <h2>Fresias</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/anémones.jpeg') }})">
+         <h1 class="text-shadow">Anémones</hi>
+      </div>
+      <div class="back">
+         <h2>Anémones</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/primevères.jpeg') }})">
+         <h1 class="text-shadow">Primevères</hi>
+      </div>
+      <div class="back">
+         <h2>Primevères</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/rosiers.jpeg') }})">
+         <h1 class="text-shadow">Rosiers</hi>
+      </div>
+      <div class="back">
+         <h2>Rosiers</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/cinéraires.jpeg') }})">
+         <h1 class="text-shadow">Cinéraires</hi>
+      </div>
+      <div class="back">
+         <h2>Cinéraires</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/pensées.jpeg') }})">
+         <h1 class="text-shadow">Pensées</hi>
+      </div>
+      <div class="back">
+         <h2>Pensées</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/muguets.jpeg') }})">
+         <h1 class="text-shadow">Muguets</hi>
+      </div>
+      <div class="back">
+         <h2>Muguets</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <br>
+   <br>
+   <h2>Mai</h2>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/pensées.jpeg') }})">
+         <h1 class="text-shadow">Pensées</hi>
+      </div>
+      <div class="back">
+         <h2>Pensées</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/hibiscus.jpeg') }})">
+         <h1 class="text-shadow">Hibiscus</hi>
+      </div>
+      <div class="back">
+         <h2>Hibiscus</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/fuchsia.jpeg') }})">
+         <h1 class="text-shadow">Fuchsia</hi>
+      </div>
+      <div class="back">
+         <h2>Fuchsia</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <br>
+   <br>
+   <h2>Fête des mères</h2>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/pivoines.jpeg') }})">
+         <h1 class="text-shadow">Pivoines</hi>
+      </div>
+      <div class="back">
+         <h2>Pivoines</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/oeillets.jpeg') }})">
+         <h1 class="text-shadow">Oeillets</hi>
+      </div>
+      <div class="back">
+         <h2>Oeillets</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/fresias.jpeg') }})">
+         <h1 class="text-shadow">Fresias</h1>
+      </div>
+      <div class="back">
+         <h2>Fresias</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/printemps/roses.jpeg') }})">
+         <h1 class="text-shadow">Roses</h1>
+      </div>
+      <div class="back">
+         <h2>Roses</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <br>
+   <br>
+   <br>
+
+ </section>
+ 
+   <!-- Automne -->
+
+ <section id="automne-section">
+   <h2>Automne</h2>
    <div class="principale">
       <ul>
          <li class="ligne">
@@ -36,56 +229,92 @@
    <br>
    <br>
    <div class="flip flip-vertical">
-      <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_jaune.jpeg') }})">
-         <h1 class="text-shadow">Fleurs Jaunes</hi>
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/pomponnettes_chrysanthèmes.jpeg') }})">
+         <h1 class="text-shadow">Pomponnettes</h1>
       </div>
       <div class="back">
-         <h2>Fleurs Jaunes</h2>
+         <h2>Pomponnettes chrysanthèmes</h2>
          <p>De superbes fleurs, réalisées par Epifleuri</p>
       </div>
    </div>
    <div class="flip flip-vertical">
-      <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_rouge:blanc.jpeg') }})">
-         <h1 class="text-shadow">Fleurs Blanches</hi>
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/pensées.jpeg') }})">
+         <h1 class="text-shadow">Pensées</h1>
       </div>
       <div class="back">
-         <h2>Fleurs Blanches</h2>
+         <h2>Pensées</h2>
          <p>De superbes fleurs, réalisées par Epifleuri</p>
       </div>
    </div>
    <div class="flip flip-vertical">
-      <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_rose.jpeg') }})">
-         <h1 class="text-shadow">Fleurs Rose</hi>
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/sapins.jpeg') }})">
+         <h1 class="text-shadow">Sapins</h1>
       </div>
       <div class="back">
-         <h2>Fleurs Rose</h2>
+         <h2>Sapins</h2>
          <p>De superbes fleurs, réalisées par Epifleuri</p>
       </div>
    </div>
    <div class="flip flip-vertical">
-      <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_jaune.jpeg') }})">
-         <h1 class="text-shadow">Fleurs Jaune</hi>
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/montages_de_saison.jpeg') }})">
+         <h1 class="text-shadow">Montages</h1>
       </div>
       <div class="back">
-         <h2>Fleurs Jaune</h2>
+         <h2>Montages de saison</h2>
          <p>De superbes fleurs, réalisées par Epifleuri</p>
       </div>
    </div>
    <div class="flip flip-vertical">
-      <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_rouge:blanc.jpeg') }})">
-         <h1 class="text-shadow">Fleurs Blanches</hi>
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/chrysanthèmes.jpeg') }})">
+         <h1 class="text-shadow">Chrysanthèmes</hi>
       </div>
       <div class="back">
-         <h2>Fleurs Blanches</h2>
+         <h2>Chrysanthèmes</h2>
          <p>De superbes fleurs, réalisées par Epifleuri</p>
       </div>
    </div>
    <div class="flip flip-vertical">
-      <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_rose.jpeg') }})">
-         <h1 class="text-shadow">Fleurs Rose</hi>
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/rose.jpeg') }})">
+         <h1 class="text-shadow">Rose</hi>
       </div>
       <div class="back">
-         <h2>Fleurs Rose</h2>
+         <h2>Rose</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/gerbera.jpeg') }})">
+         <h1 class="text-shadow">Gerbera</hi>
+      </div>
+      <div class="back">
+         <h2>Gerbera</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/gypsophiles.jpeg') }})">
+         <h1 class="text-shadow">Gypsophiles</hi>
+      </div>
+      <div class="back">
+         <h2>Gypsophiles</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/lys.jpeg') }})">
+         <h1 class="text-shadow">Lys</hi>
+      </div>
+      <div class="back">
+         <h2>Lys</h2>
+         <p>De superbes fleurs, réalisées par Epifleuri</p>
+      </div>
+   </div>
+   <div class="flip flip-vertical">
+      <div class="front" style="background-image: url({{ url_for('static', filename='images/amaryllis.jpeg') }})">
+         <h1 class="text-shadow">Amaryllis</hi>
+      </div>
+      <div class="back">
+         <h2>Amaryllis</h2>
          <p>De superbes fleurs, réalisées par Epifleuri</p>
       </div>
    </div>
@@ -94,95 +323,10 @@
    <br>
  </section>
  
+<!-- Hiver -->
 
-
- <section id="plant-section">
-   <h2>Nos Plantes</h2>
-   <div class="principale">
-      <ul>
-         <li class="ligne">
-         <span class="nombre">?</span>
-         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
-         </li>
-         <li class="ligne">
-         <span class="nombre">?</span>
-         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
-         </li>   
-         <li class="ligne">
-         <span class="nombre">?</span>
-         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
-         </li> 
-         <li class="ligne">
-         <span class="nombre">?</span>
-         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
-         </li>                  
-      </ul>
-   </div>
-   <br>
-   <br>
-   <div class="flip flip-vertical">
-      <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_jaune.jpeg') }})">
-         <h1 class="text-shadow">Fleurs Jaunes</hi>
-      </div>
-      <div class="back">
-         <h2>Fleurs Jaunes</h2>
-         <p>De superbes fleurs, réalisées par Epifleuri</p>
-      </div>
-   </div>
-   <div class="flip flip-vertical">
-      <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_rouge:blanc.jpeg') }})">
-         <h1 class="text-shadow">Fleurs Blanches</hi>
-      </div>
-      <div class="back">
-         <h2>Fleurs Blanches</h2>
-         <p>De superbes fleurs, réalisées par Epifleuri</p>
-      </div>
-   </div>
-   <div class="flip flip-vertical">
-      <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_rose.jpeg') }})">
-         <h1 class="text-shadow">Fleurs Rose</hi>
-      </div>
-      <div class="back">
-         <h2>Fleurs Rose</h2>
-         <p>De superbes fleurs, réalisées par Epifleuri</p>
-      </div>
-   </div>
-   <div class="flip flip-vertical">
-      <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_jaune.jpeg') }})">
-         <h1 class="text-shadow">Fleurs Jaune</hi>
-      </div>
-      <div class="back">
-         <h2>Fleurs Jaune</h2>
-         <p>De superbes fleurs, réalisées par Epifleuri</p>
-      </div>
-   </div>
-   <div class="flip flip-vertical">
-      <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_rouge:blanc.jpeg') }})">
-         <h1 class="text-shadow">Fleurs Blanches</hi>
-      </div>
-      <div class="back">
-         <h2>Fleurs Blanches</h2>
-         <p>De superbes fleurs, réalisées par Epifleuri</p>
-      </div>
-   </div>
-   <div class="flip flip-vertical">
-      <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_rose.jpeg') }})">
-         <h1 class="text-shadow">Fleurs Rose</hi>
-      </div>
-      <div class="back">
-         <h2>Fleurs Rose</h2>
-         <p>De superbes fleurs, réalisées par Epifleuri</p>
-      </div>
-   </div>
-   <br>
-   <br>
-   <br>
- </section>
- 
-
-
- <section id="decoration-section">
-    <h2>Nos Decorations</h2>
+ <section id="hiver-section">
+    <h2>Hiver</h2>
 <div class="principale">
    <ul>
       <li class="ligne">
@@ -206,99 +350,230 @@
 <br>
 <br>
 <div class="flip flip-vertical">
-   <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_jaune.jpeg') }})">
-      <h1 class="text-shadow">Fleurs Jaunes</hi>
+   <div class="front" style="background-image: url({{ url_for('static', filename='images/jacinthes.jpeg') }})">
+      <h1 class="text-shadow">Jacinthes</hi>
    </div>
    <div class="back">
-      <h2>Fleurs Jaunes</h2>
+      <h2>Jacinthes</h2>
       <p>De superbes fleurs, réalisées par Epifleuri</p>
    </div>
 </div>
 <div class="flip flip-vertical">
-   <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_rouge:blanc.jpeg') }})">
-      <h1 class="text-shadow">Fleurs Blanches</hi>
+   <div class="front" style="background-image: url({{ url_for('static', filename='images/poinsetia.jpeg') }})">
+      <h1 class="text-shadow">Poinsetia</hi>
    </div>
    <div class="back">
-      <h2>Fleurs Blanches</h2>
+      <h2>Poinsetia</h2>
       <p>De superbes fleurs, réalisées par Epifleuri</p>
    </div>
 </div>
 <div class="flip flip-vertical">
-   <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_rose.jpeg') }})">
-      <h1 class="text-shadow">Fleurs Rose</hi>
+   <div class="front" style="background-image: url({{ url_for('static', filename='images/mimosas.jpeg') }})">
+      <h1 class="text-shadow">Mimosas</hi>
    </div>
    <div class="back">
-      <h2>Fleurs Rose</h2>
+      <h2>Mimosas</h2>
       <p>De superbes fleurs, réalisées par Epifleuri</p>
    </div>
 </div>
 <div class="flip flip-vertical">
-   <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_jaune.jpeg') }})">
-      <h1 class="text-shadow">Fleurs Jaune</hi>
+   <div class="front" style="background-image: url({{ url_for('static', filename='images/roses.jpeg') }})">
+      <h1 class="text-shadow">Roses</hi>
    </div>
    <div class="back">
-      <h2>Fleurs Jaune</h2>
+      <h2>Roses</h2>
       <p>De superbes fleurs, réalisées par Epifleuri</p>
    </div>
 </div>
 <div class="flip flip-vertical">
-   <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_rouge:blanc.jpeg') }})">
-      <h1 class="text-shadow">Fleurs Blanches</hi>
+   <div class="front" style="background-image: url({{ url_for('static', filename='images/fresias.jpeg') }})">
+      <h1 class="text-shadow">Fresias</hi>
    </div>
    <div class="back">
-      <h2>Fleurs Blanches</h2>
+      <h2>Fresias</h2>
       <p>De superbes fleurs, réalisées par Epifleuri</p>
    </div>
 </div>
 <div class="flip flip-vertical">
-   <div class="front" style="background-image: url({{ url_for('static', filename='images/fleur_rose.jpeg') }})">
-      <h1 class="text-shadow">Fleurs Rose</hi>
+   <div class="front" style="background-image: url({{ url_for('static', filename='images/gerberas.jpeg') }})">
+      <h1 class="text-shadow">Gerberas</hi>
    </div>
    <div class="back">
-      <h2>Fleurs Rose</h2>
+      <h2>Gerberas</h2>
       <p>De superbes fleurs, réalisées par Epifleuri</p>
    </div>
+</div>
+<div class="flip flip-vertical">
+   <div class="front" style="background-image: url({{ url_for('static', filename='images/lys.jpeg') }})">
+      <h1 class="text-shadow">Lys</hi>
+   </div>
+   <div class="back">
+      <h2>Lys</h2>
+      <p>De superbes fleurs, réalisées par Epifleuri</p>
+   </div>
+</div>
+<div class="flip flip-vertical">
+   <div class="front" style="background-image: url({{ url_for('static', filename='images/hortensias.jpeg') }})">
+      <h1 class="text-shadow">Hortensias</hi>
+   </div>
+   <div class="back">
+      <h2>Hortensias</h2>
+      <p>De superbes fleurs, réalisées par Epifleuri</p>
+   </div>
+</div>
+<div class="flip flip-vertical">
+   <div class="front" style="background-image: url({{ url_for('static', filename='images/alstro.jpeg') }})">
+      <h1 class="text-shadow">Alstro</hi>
+   </div>
+   <div class="back">
+      <h2>Alstro</h2>
+      <p>De superbes fleurs, réalisées par Epifleuri</p>
+   </div>
+</div>
+<div class="flip flip-vertical">
+   <div class="front" style="background-image: url({{ url_for('static', filename='images/orchidées.jpeg') }})">
+      <h1 class="text-shadow">Orchidées</hi>
+   </div>
+   <div class="back">
+      <h2>Orchidées</h2>
+      <p>De superbes fleurs, réalisées par Epifleuri</p>
+   </div>
+</div>
+<div class="flip flip-vertical">
+   <div class="front" style="background-image: url({{ url_for('static', filename='images/anthurium.jpeg') }})">
+      <h1 class="text-shadow">Anthurium</hi>
+   </div>
+   <div class="back">
+      <h2>Anthurium</h2>
+      <p>De superbes fleurs, réalisées par Epifleuri</p>
+   </div>
+</div>
+<div class="flip flip-vertical">
+   <div class="front" style="background-image: url({{ url_for('static', filename='images/strelitzia.jpeg') }})">
+      <h1 class="text-shadow">Strelitzia</hi>
+   </div>
+   <div class="back">
+      <h2>Strelitzia</h2>
+      <p>De superbes fleurs, réalisées par Epifleuri</p>
+   </div>
+</div>
+<br>
+<br>
+</section>
+
+
+<!-- Toute l'année -->
+
+<section id="all-section">
+   <h2>Toute l'année</h2>
+<div class="principale">
+  <ul>
+     <li class="ligne">
+     <span class="nombre">?</span>
+     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
+     </li>
+     <li class="ligne">
+     <span class="nombre">?</span>
+     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
+     </li>   
+     <li class="ligne">
+     <span class="nombre">?</span>
+     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
+     </li> 
+     <li class="ligne">
+     <span class="nombre">?</span>
+     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia lorem sit amet velit rhoncus bibendum. Fusce eleifend massa a quam vestibulum, et pulvinar tellus vestibulum. Aliquam a enim at ipsum lobortis pharetra.</span>
+     </li>                  
+  </ul>
+</div>
+<br>
+<br>
+<div class="flip flip-vertical">
+  <div class="front" style="background-image: url({{ url_for('static', filename='images/roses_jaunes.jpeg') }})">
+     <h1 class="text-shadow">Roses Jaunes</hi>
+  </div>
+  <div class="back">
+     <h2>Roses Jaunes</h2>
+     <p>De superbes fleurs, réalisées par Epifleuri</p>
+  </div>
+</div>
+<div class="flip flip-vertical">
+  <div class="front" style="background-image: url({{ url_for('static', filename='images/roses_bleu.jpeg') }})">
+     <h1 class="text-shadow">Roses Bleues</hi>
+  </div>
+  <div class="back">
+     <h2>Roses Bleus</h2>
+     <p>De superbes fleurs, réalisées par Epifleuri</p>
+  </div>
+</div>
+<div class="flip flip-vertical">
+  <div class="front" style="background-image: url({{ url_for('static', filename='images/roses_noir.jpeg') }})">
+     <h1 class="text-shadow">Roses Noires</hi>
+  </div>
+  <div class="back">
+     <h2>Roses Noir</h2>
+     <p>De superbes fleurs, réalisées par Epifleuri</p>
+  </div>
 </div>
 <br>
 <br>
 <br>
 </section>
 <script>
-const flowerSection = document.getElementById("flower-section");
-const plantSection = document.getElementById("plant-section");
-const decorationSection = document.getElementById("decoration-section");
+const printempsSection = document.getElementById("printemps-section");
+const automneSection = document.getElementById("automne-section");
+const hiverSection = document.getElementById("hiver-section");
+const allSection = document.getElementById("all-section");
 
-document.getElementById("flowers").addEventListener("click", function() {
-   flowerSection.style.display = "block";
-   plantSection.style.display = "none";
-   decorationSection.style.display = "none";
-   document.getElementById("flowers").classList.add("selected");
-   document.getElementById("plants").classList.remove("selected");
-   document.getElementById("decoration").classList.remove("selected");
+document.getElementById("printemps").addEventListener("click", function() {
+   printempsSection.style.display = "block";
+   automneSection.style.display = "none";
+   hiverSection.style.display = "none";
+   allSection.style.display = "none";
+   document.getElementById("printemps").classList.add("selected");
+   document.getElementById("automne").classList.remove("selected");
+   document.getElementById("hiver").classList.remove("selected");
+   document.getElementById("all").classList.remove("selected");
 });
 
-document.getElementById("plants").addEventListener("click", function() {
-   flowerSection.style.display = "none";
-   plantSection.style.display = "block";
-   decorationSection.style.display = "none";
-   document.getElementById("flowers").classList.remove("selected");
-   document.getElementById("plants").classList.add("selected");
-   document.getElementById("decoration").classList.remove("selected");
+document.getElementById("automne").addEventListener("click", function() {
+   printempsSection.style.display = "none";
+   automneSection.style.display = "block";
+   hiverSection.style.display = "none";
+   allSection.style.display = "none";
+   document.getElementById("printemps").classList.remove("selected");
+   document.getElementById("automne").classList.add("selected");
+   document.getElementById("hiver").classList.remove("selected");
+   document.getElementById("all").classList.remove("selected");
 });
 
-document.getElementById("decoration").addEventListener("click", function() {
-   flowerSection.style.display = "none";
-   plantSection.style.display = "none";
-   decorationSection.style.display = "block";
-   document.getElementById("flowers").classList.remove("selected");
-   document.getElementById("plants").classList.remove("selected");
-   document.getElementById("decoration").classList.add("selected");
+document.getElementById("hiver").addEventListener("click", function() {
+   printempsSection.style.display = "none";
+   automneSection.style.display = "none";
+   hiverSection.style.display = "block";
+   allSection.style.display = "none";
+   document.getElementById("printemps").classList.remove("selected");
+   document.getElementById("automne").classList.remove("selected");
+   document.getElementById("hiver").classList.add("selected");
+   document.getElementById("all").classList.remove("selected");
 });
 
-flowerSection.style.display = "block";
-plantSection.style.display = "none";
-decorationSection.style.display = "none";
-document.getElementById("flowers").classList.add("selected");
+document.getElementById("all").addEventListener("click", function() {
+   printempsSection.style.display = "none";
+   automneSection.style.display = "none";
+   hiverSection.style.display = "none";
+   allSection.style.display = "block";
+   document.getElementById("printemps").classList.remove("selected");
+   document.getElementById("automne").classList.remove("selected");
+   document.getElementById("hiver").classList.remove("selected");
+   document.getElementById("all").classList.add("selected");
+});
+
+printempsSection.style.display = "block";
+automneSection.style.display = "none";
+hiverSection.style.display = "none";
+allSection.style.display = "none";
+document.getElementById("printemps").classList.add("selected");
 
 </script>
 {% include "footer.html" %}
