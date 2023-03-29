@@ -1,16 +1,3 @@
-#banner {
-background-image: url('magasin_epi_fleuri.jpeg');
-background-size: cover;
-background-position: top center;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: 5%;
-padding: 0;
-min-width: 100%;
-height: 70vh;
-}
-
 #titre {
     padding-top: 50px;
     padding-bottom: 100px;
