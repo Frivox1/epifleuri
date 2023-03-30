@@ -17,20 +17,3 @@ html{
   .footer-nav {
     display: flex;
   }
-  
-  .footer-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .footer-nav li {
-    margin-left: 10px;
-  }
-  
-  .footer-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 0.9rem;
-  }
