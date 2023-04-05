@@ -42,6 +42,10 @@ text-align: justify;
 margin-right: 20px;
 margin: auto; /* change to auto */
 }
+
+.product-grid-item .description h2 {
+  text-shadow: 1px 1px #fff;
+}
   
 #banner-text h1 {
 font-size: 7rem;
@@ -50,6 +54,7 @@ margin-top: 1rem;
 margin-bottom: 1rem;
 text-align: center;
 color: #d83271;
+text-shadow: 3px 4px #fff;
 } 
 #banner-text h3 {
 font-size: 2rem;
