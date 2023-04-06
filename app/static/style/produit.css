@@ -155,3 +155,10 @@ color: #fff;
   color: #d83271;
 }
 
+.sup {
+  font-size: 30px;
+  vertical-align: super;
+  background-color : #d83271;
+  padding: 10px;
+  border-radius: 10px;
+}
