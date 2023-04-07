@@ -125,3 +125,26 @@ border: 2px solid #d83271;
 .product-grid-item .description {
   color: #d83271;
 }
+
+
+/* Pour téléphone */
+
+/* I would like that the image were under the text */
+
+@media screen and (max-width: 600px) {
+.product-grid-item img {
+max-width: 90%;
+margin-right: auto;
+}
+.product-grid-item .description {
+width: 90%;
+margin-right: auto;
+text-align: center;
+}
+.product-grid-item {
+flex-direction: column;
+}
+.product-grid-item:nth-child(odd) {
+flex-direction: column;
+}
+}
