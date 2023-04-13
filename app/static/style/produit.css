@@ -160,5 +160,11 @@ color: #fff;
   vertical-align: super;
   background-color : #d83271;
   padding: 10px;
-  border-radius: 10px;
+}
+
+.a_venir {
+  font-size: 30px;
+  vertical-align: super;
+  background-color : #d83271;
+  padding: 10px;
 }
