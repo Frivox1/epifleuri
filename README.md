@@ -1,13 +1,3 @@
-<h1 align="center">Bsl Web</h1>
-<br>
-<p align="center">
-  <a href="https://bslweb.herokuapp.com/">
-    <img src="https://i.ibb.co/2cvmr3K/Capture-d-e-cran-2023-03-10-a-12-15-54.png" height="200px">
-  </a>
-</p>
-
-&nbsp;
-
 [![All Contributors](https://img.shields.io/badge/Contributor-1-yellow.svg?style=flat-square)](#contributors-)
 [![Time](https://img.shields.io/badge/Time-1Day-orange.svg?style=flat-square)](#time-)
 [![Language](https://img.shields.io/badge/Language-Flask-red.svg?style=flat-square)](#languages-)
