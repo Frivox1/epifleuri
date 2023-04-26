@@ -1,5 +1,5 @@
 [![All Contributors](https://img.shields.io/badge/Contributor-2-yellow.svg?style=flat-square)](#contributors-)
-[![Time](https://img.shields.io/badge/Time-7Day-orange.svg?style=flat-square)](#time-)
+[![Time](https://img.shields.io/badge/Time-20Day-orange.svg?style=flat-square)](#time-)
 [![Language](https://img.shields.io/badge/Language-Flask-red.svg?style=flat-square)](#languages-)
 
 This is a Flask web application that can display different HTML templates based on user requests which correspond to different pages of the website.
