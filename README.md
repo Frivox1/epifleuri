@@ -4,8 +4,6 @@
 
 This is a Flask web application that can display different HTML templates based on user requests which correspond to different pages of the website.
 
-It also has the functionality to add new posts to a forum, delete posts, upload and delete images, show uploaded images, and login to access the image upload and deletion functionality. The application uses a database to store the posts and images, and users can interact with this database through different routes.
-
 Epifleuri, a custom website, was expertly crafted and tailored to the specific floral shop. The team behind Epifleuri executed a thorough design and development process, ensuring that the site is visually appealing, user-friendly, and optimized for search engine rankings. 
 
 The site's features and functionality are carefully curated to meet the unique requirements of the cliet, providing its members with a seamless online experience that enhances their overall informations.
