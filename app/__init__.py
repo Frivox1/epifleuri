@@ -7,6 +7,10 @@ def create_app(test_config=None):
   @app.route("/")
   def accueil():
     return render_template("index.html")
+  
+  @app.route("/fete")
+  def fete():
+    return render_template("fete.html")
 
   @app.route("/produit")
   def prod():
