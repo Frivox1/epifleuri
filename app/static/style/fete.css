@@ -1,77 +1,58 @@
-/* Style de la page */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
+ body {
+  background-color: #C6CC27;
+ }
+ 
+ .info {
+  width: 40%;
+  float: left;
+  margin-top: 130px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.info h1 {
+  font-size: 60px;
+  margin: 0 0 20px;
+  line-height: 1.4;
+  color: #d83271;
+  text-shadow: 2px 3px #fff;
+}
+
+ .info p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 22px;
+  color: #d83271;
+}
+
+ .info button {
+  border: 0;
+  border-radius: 20px;
+  padding: 12px 30px;
+  margin-top: 38px;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #d83271;
+  font-size: 22px;
+}
+
+ .info button:hover {
+   background-color: #d8327282;
+   border: 2px solid #d83271;
   }
-  
-  /* Style de l'entête */
-  header {
-    background-color: #fff;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  header h1 {
-    font-size: 36px;
-    color: #333;
-    margin-top: 0;
-  }
-  
-  header p {
-    font-size: 24px;
-    color: #777;
-  }
-  
-  /* Style de la section des offres spéciales */
-  #offres-speciales {
-    background-color: #fff;
-    padding: 30px;
-    margin-bottom: 30px;
-  }
-  
-  #offres-speciales h2 {
-    font-size: 28px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  #offres-speciales ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #offres-speciales li {
-    font-size: 20px;
-    color: #777;
-    margin-bottom: 10px;
-  }
-  
-  /* Style de la section des collections de fleurs */
-  #collections {
-    background-color: #f2f2f2;
-    padding: 30px;
-  }
-  
-  #collections h2 {
-    font-size: 28px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  #collections p {
-    font-size: 20px;
-    color: #777;
-    margin-bottom: 30px;
-  }
-  
-  #collections img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
-  }
-  
+
+ .image {
+  width: 50%;
+  float: right;
+  margin-top: 35px;
+}
+
+ .image img {
+  max-width: 100%;
+}
+
+.clearfix {
+clear: both;
+}
+
+/* End Landing Page */

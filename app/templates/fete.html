@@ -9,30 +9,22 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style/fete.css') }}">
 </head>
 {% include "header.html" %}
+
 <body>
+  
+  <div class="info">
+    <h1>Fête des mères</h1>
+    <p>Offrez à votre maman un bouquet de fleurs qui illuminera sa journée et lui rappellera tout l'amour que vous lui portez, à l'occasion de la fête des mères. </p>
+    <button>Nos bouquets pour l'occasion</button>
+  </div>
+  <div class="image">
+    <img src="{{ url_for('static', filename='images/florist_vector.png') }}">
+  </div>
+  <div class="clearfix"></div>
+</div>
+</div>
 
-    <!-- Entête de la page -->
-  <header>
-    <h1>La fête des mères arrive bientôt!</h1>
-    <p>Célébrez votre maman avec des fleurs magnifiques</p>
-  </header>
-
-  <!-- Section des offres spéciales -->
-  <section id="offres-speciales">
-    <h2>Offres spéciales pour la fête des mères</h2>
-    <ul>
-      <li>Réduction de 10% sur toutes les fleurs pour la fête des mères</li>
-      <li>Un bouquet gratuit avec chaque commande de plus de 50€</li>
-    </ul>
-  </section>
-
-  <!-- Section des collections de fleurs -->
-  <section id="collections">
-    <h2>Notre collection de fleurs pour la fête des mères</h2>
-    <p>Nous avons une large sélection de fleurs pour la fête des mères, y compris des roses, des pivoines et des lys. Nos arrangements floraux sont soigneusement créés pour célébrer votre maman de la meilleure façon possible.</p>
-    <img src="collection-fleurs.jpg" alt="Collection de fleurs pour la fête des mères">
-  </section>
-    
 </body>
+   
 {% include "footer.html" %}
 </html>
