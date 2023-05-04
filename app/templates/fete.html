@@ -11,28 +11,38 @@
 {% include "header.html" %}
 
 <body>
-  
-  <div class="info">
-    <h1>Fête des mères</h1>
-    <p>Offrez à votre maman un bouquet de fleurs qui illuminera sa journée et lui rappellera tout l'amour que vous lui portez, à l'occasion de la fête des mères. </p>
-    <button>Nos bouquets pour l'occasion</button>
-  </div>
-  <div class="image">
-    <img src="{{ url_for('static', filename='images/florist_vector.png') }}">
-  </div>
-  <div class="clearfix"></div>
+  <div class="haut">
 
-  <h1>Ma galerie de photos</h1>
-	<div class="gallery">
-		<img src="https://via.placeholder.com/300x200">
-		<img src="https://via.placeholder.com/300x200">
-		<img src="https://via.placeholder.com/300x200">
-		<img src="https://via.placeholder.com/300x200">
-		<img src="https://via.placeholder.com/300x200">
-		<img src="https://via.placeholder.com/300x200">
-		<img src="https://via.placeholder.com/300x200">
-		<img src="https://via.placeholder.com/300x200">
-	</div>
+    <div class="info">
+      <h1>Fête des mères</h1>
+      <p>Offrez à votre maman un bouquet de fleurs qui illuminera sa journée et lui rappellera tout l'amour que vous lui portez, à l'occasion de la fête des mères. </p>
+      <button>Nos bouquets pour l'occasion</button>
+    </div>
+    <div class="image">
+      <img src="{{ url_for('static', filename='images/florist_vector.png') }}">
+    </div>
+  </div>
+
+
+  <div class="milieu">
+
+    <h1>Quelques-uns des produits que nous vendons pour l'occasion</h1>
+    <div class="gallery">
+      <img src="{{ url_for('static', filename='images/fete_mere/etagere_dehors.jpeg') }}">
+      <img src="{{ url_for('static', filename='images/fete_mere/etagere_dehors_2.jpeg') }}">
+      <img src="{{ url_for('static', filename='images/fete_mere/interieur.jpeg') }}">
+      <img src="{{ url_for('static', filename='images/fete_mere/bouquet.jpeg') }}">
+      <img src="{{ url_for('static', filename='images/fete_mere/rose_blanche.jpeg') }}">
+      <img src="{{ url_for('static', filename='images/fete_mere/rose_rose.jpeg') }}">
+      <img src="{{ url_for('static', filename='images/fete_mere/rose_rouge_blanc.jpg') }}">
+      <img src="{{ url_for('static', filename='images/fete_mere/rose_rouge_blanc_2.jpeg') }}">
+      <img src="{{ url_for('static', filename='images/fete_mere/rose_blanche.jpeg') }}">
+      <img src="{{ url_for('static', filename='images/fete_mere/ourson.jpeg') }}">
+      <img src="{{ url_for('static', filename='images/fete_mere/nounours.jpeg') }}">
+    </div>
+
+  </div>
+  
 
 </body>
    
