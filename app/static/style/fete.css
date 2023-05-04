@@ -1,58 +1,119 @@
- body {
+/* Start Landing Page */
+
+body {
   background-color: #C6CC27;
- }
- 
- .info {
-  width: 40%;
-  float: left;
-  margin-top: 130px;
-  margin-left: 100px;
+}
+
+.info {
+  width: 80%;
+  margin: 130px auto 0;
   text-align: center;
 }
 
 .info h1 {
-  font-size: 60px;
+  font-size: 9vw;
   margin: 0 0 20px;
   line-height: 1.4;
   color: #d83271;
   text-shadow: 2px 3px #fff;
 }
 
- .info p {
+.info p {
   margin: 0;
   line-height: 1.6;
-  font-size: 22px;
+  font-size: 3vw;
   color: #d83271;
 }
 
- .info button {
+.info button {
   border: 0;
   border-radius: 20px;
-  padding: 12px 30px;
-  margin-top: 38px;
+  padding: 1vw 4vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
   cursor: pointer;
   color: #FFF;
   background-color: #d83271;
-  font-size: 22px;
+  font-size: 3vw;
 }
 
- .info button:hover {
-   background-color: #d8327282;
-   border: 2px solid #d83271;
-  }
-
- .image {
-  width: 50%;
-  float: right;
-  margin-top: 35px;
+.info button:hover {
+  background-color: #d8327282;
+  border: 2px solid #d83271;
 }
 
- .image img {
+.image {
+  width: 80%;
+  margin: 5vw auto 0;
+}
+
+.image img {
   max-width: 100%;
 }
 
 .clearfix {
-clear: both;
+  clear: both;
 }
 
-/* End Landing Page */
+/* Media Queries */
+
+@media only screen and (min-width: 768px) {
+  .info {
+    width: 50%;
+    float: left;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    text-align: center;
+  }
+
+  .info h1 {
+    font-size: 6vw;
+  }
+
+  .info p {
+    font-size: 2.5vw;
+  }
+
+  .info button {
+    font-size: 2.5vw;
+    padding: 1vw 3vw;
+    margin-top: 3vw;
+  }
+
+  .image {
+    width: 35%;
+    float: right;
+    margin-top: 10vw;
+    margin-right: 5vw;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .info {
+    width: 100%;
+    margin-top: 20vw;
+    text-align: center;
+  }
+
+  .info h1 {
+    font-size: 9vw;
+  }
+
+  .info p {
+    font-size: 5vw;
+  }
+
+  .info button {
+    font-size: 5vw;
+    padding: 3vw 7vw;
+    margin-top: 5vw;
+  }
+
+  .image {
+    width: 100%;
+    margin-top: 10vw;
+  }
+
+}
