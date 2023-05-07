@@ -63,3 +63,16 @@ html, body {
   display: flex;
   align-items: center;
   }
+
+  @media (max-width: 480px) {
+    #navbar ul {
+      flex-direction: row;
+    }
+    #logo img {
+      height: 30px;
+      width: 30px;
+    }
+    #navbar a {
+      font-size: 0.5rem;
+    }
+  }

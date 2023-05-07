@@ -1,6 +1,6 @@
 #titre {
-    padding-top: 50px;
-    padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 #banner-text {
@@ -44,9 +44,9 @@ margin: auto; /* change to auto */
 }
 
 .product-grid-item .description h2 {
-  text-shadow: 1px 1px #fff;
+text-shadow: 1px 1px #fff;
 }
-  
+
 #banner-text h1 {
 font-size: 7rem;
 font-weight: bold;
@@ -89,41 +89,41 @@ border: 2px solid #d83271;
 }
 
 .testimonial{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: #e47ba3;
-  border-radius: 20px;
-  height: 150px; /* Set a fixed height for all testimonial bubbles */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 5px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: #e47ba3;
+border-radius: 20px;
+height: 150px; /* Set a fixed height for all testimonial bubbles */
 }
 
 .testimonial .description{
-  font-size: 13px;
-  color: #fff;
-  line-height: 1.5;
-  text-align: center;
-  margin: auto;
+font-size: 13px;
+color: #fff;
+line-height: 1.5;
+text-align: center;
+margin: auto;
 }
 
 .description h2{
-  text-decoration: underline;
-  text-decoration-thickness: 4px;
+text-decoration: underline;
+text-decoration-thickness: 4px;
 }
 
 .testimonial .testimonial-title{
-  font-size: 14px;
-  letter-spacing: 3px;
-  color: #d83271;
-  text-transform: uppercase;
-  margin-top: 10px;
+font-size: 14px;
+letter-spacing: 3px;
+color: #d83271;
+text-transform: uppercase;
+margin-top: 10px;
 }
 
 .product-grid-item .description {
-  color: #d83271;
+color: #d83271;
 }
 
 
