@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos 20 ans</title>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/anniversaire.css') }}">
+</head>
+{% include "header.html" %}
+
+<body>
+
+    <section id="hero">
+        <h2>L'Epifleuri fête ses 20 ans !</h2>
+        <img src="{{ url_for('static', filename='images/anniversaire.jpg') }}">
+        <p>Venez fêter notre anniversaire avec nous !</p>
+    </section>
+
+    <section id="about">
+        <h2>Comment va se dérouler la journée ?</h2>
+        <p>Pour l'occasion, drinks, lunchs, petits présents et surprises seront au menu.</p>
+        <p>Rendez-vous le 1 juillet de 9h à 18h à l'adresse : Chaussée de Namur 74, 1367 Ramillies.</p>
+        <p>Une urne sera à votre disposition si vous voulez nous gâter.</p>
+        <p>Dans le cas où vous ne savez malheureusement pas venir, voici le numéro de compte : BE94 0682 4154 8114</p>
+        <p>Nous vous attendons nombreux et en pleine forme !</p>
+        <img src="{{ url_for('static', filename='images/anniversaire2.jpg') }}">
+        <p>A très bientôt !</p>
+        <p>Christelle et son équipe</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script>
+        
+        for (let index = 0; index < (Math.floor(Math.random() * 10) + 15); index++) {
+            confetti({
+                origin: { 
+                    x: Math.random(), 
+                    y: Math.random() + 0.3
+                },
+            });
+        }
+
+    </script>
+
+</body>
+   
+{% include "footer.html" %}
+</html>
