@@ -13,9 +13,9 @@ def create_app(test_config=None):
   def fete():
     return render_template("fete.html")"""
   
-  @app.route("/anniversaire")
+  """@app.route("/anniversaire")
   def anniv():
-    return render_template("anniversaire.html")
+    return render_template("anniversaire.html")"""
 
   @app.route("/produit")
   def prod():
