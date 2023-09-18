@@ -28,5 +28,9 @@ def create_app(test_config=None):
   @app.route("/informations")
   def info():
     return render_template("informations.html")
+  
+  @app.route("/weekend-client")
+  def wk_client():
+    return render_template("weekend-client.html")
 
   return app

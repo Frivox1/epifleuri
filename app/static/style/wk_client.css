@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Pour centrer le texte horizontalement */
+    height: 90vh; /* Vous pouvez ajuster ceci en fonction de vos besoins */
+    margin-top: 50px;
+  }
+  
+  .logo {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .texte {
+    margin-top: 40px; /* Ajoutez une marge au-dessus du texte si nécessaire */
+    text-align: center;
+    font-size: 30px;
+    max-width: 100%;
+  }
+
+  .texte:last-child {
+    margin-bottom: 100px; /* Ajoutez une marge en dessous du texte si nécessaire */
+  }
+
+
+  .photos {
+    display: flex;
+    justify-content: space-around; /* Pour espacer les images horizontalement */
+    align-items: center; /* Pour aligner les images verticalement */
+    margin-bottom: 40px;
+  }
+  
+  .fleur, .signature {
+    max-width: 50%; /* Les images prendront chacune 50% de la largeur disponible */
+    height: auto; /* Pour conserver les proportions de l'image */
+  }
+  
+
+
+/* Styles pour les écrans plus petits, comme les téléphones mobiles */
+@media screen and (max-width: 768px) {
+    .container {
+      height: auto;
+      margin-top: 20px; /* Réduire la marge pour les téléphones */
+    }
+  
+    .texte {
+      font-size: 20px; /* Réduire la taille de la police pour les téléphones */
+    }
+  }

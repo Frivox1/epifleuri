@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/wk_client.css') }}">
+    <title>Week-end client</title>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+</head>
+{% include "header.html" %}
+<body>
+
+    <div class="container">
+        <img class="logo" src="{{ url_for('static', filename='images/wk_cli/wk_cli_logo.png') }}" alt="wk_cli_logo">
+    </div>
+
+    <p class="texte">L'Epi Fleuri met à l'honneur ses clients durant tout le week-end !</p>
+    <p class="texte">Pour chaque visite dans notre magasin, repartez avec une jolie rose.</p>
+   
+    <div class="photos">
+        <img src="{{ url_for('static', filename='images/wk_cli/wk_fleur.jpg')}}" alt="wk_fleur" class="fleur">
+        <img src="{{ url_for('static', filename='images/wk_cli/signature.png')}}" alt="" class="signature">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script>
+        
+        for (let index = 0; index < (Math.floor(Math.random() * 10) + 15); index++) {
+            confetti({
+                origin: { 
+                    x: Math.random(), 
+                    y: Math.random() + 0.3
+                },
+            });
+        }
+
+    </script>
+    
+</body>
+
+{% include "footer.html" %}
+
+</html>
