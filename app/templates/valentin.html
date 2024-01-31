@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/valentin.css') }}">
+    <title>Produits Saint-Valentin - L'Epi Fleuri</title>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+</head>
+{% include "header.html" %}
+<body>
+    <section id="valentine-banner">
+        <h1>Collection Saint-Valentin</h1>
+        <p>Célébrez l'amour ce 14 février avec notre sélection pour la Saint-Valentin.</p>
+    </section>
+
+    <section id="valentine-products">
+        {% for image in ['rose_rouge', 'rose_rouge1', 'rose_rouge2', 'rose_blanche', 'rose_blanche1', 'rose_jaune', 'tulipe_rose', 'rose_rouge_bocal'] %}
+        <div class="product">
+            <img src="{{ url_for('static', filename='images/st_valentin/' + image + '.jpeg') }}">
+        </div>
+        {% endfor %}
+    </section>
+
+    <p class="message">Un petit plus, toujours dans l'idée d'une fleur ?</p>
+
+    <section id="valentine-products">    
+        {% for image in ['coeur_en_rose', 'ours_blanc', 'ours_rose', 'ours_rouges', 'ourson_rose', 'ourson_rouge', 'stitch', 'rose_noir'] %}
+        <div class="product">
+            <img src="{{ url_for('static', filename='images/st_valentin/' + image + '.jpeg') }}">
+        </div>
+        {% endfor %}
+    </section>
+
+    {% include "footer.html" %}
+</body>
+</html>

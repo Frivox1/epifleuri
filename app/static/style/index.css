@@ -126,6 +126,18 @@ margin-top: 10px;
 color: #d83271;
 }
 
+#valentine-message {
+  padding: 20px;
+  text-align: center;
+}
+
+.valentine-banner {
+  max-width: 80%;
+  font-size: 2em;
+  margin: 0 auto;
+  color: #d83271;
+}
+
 
 /* Pour téléphone */
 
