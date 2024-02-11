@@ -43,7 +43,11 @@ h2, h3 {
   }
   /* Style pour les adresses */
   p {
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
     margin-bottom: 20px;
   }
+
+.colo {
+  color: #d83271;
+}

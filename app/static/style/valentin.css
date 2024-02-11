@@ -55,6 +55,44 @@ html, body {
     padding-top: 25px;
 }
 
+#delivery-section {
+    color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+}
+
+#delivery-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #d83271;
+}
+
+#delivery-section p {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+#delivery-section ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+#delivery-section ul li {
+    margin-bottom: 10px;
+    color: #d83271;
+}
+
+.contact {
+    font-weight: bold;
+    color: #d83271;
+}
+
+.colo {
+    color: #d83271;
+}
+
+
 @media screen and (max-width: 600px) {
     .product .description {
         width: 90%;
