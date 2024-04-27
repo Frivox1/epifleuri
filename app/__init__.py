@@ -9,13 +9,13 @@ def create_app(test_config=None):
     return render_template("index.html")
   
   #Fête des mère
-  """@app.route("/fete")
+  @app.route("/mai")
   def fete():
-    return render_template("fete.html")"""
+    return render_template("fete.html")
   
-  """@app.route("/anniversaire")
-  def anniv():
-    return render_template("anniversaire.html")"""
+  # @app.route("/anniversaire")
+  # def anniv():
+  #   return render_template("anniversaire.html")
 
   @app.route("/produit")
   def prod():
@@ -29,9 +29,9 @@ def create_app(test_config=None):
   def info():
     return render_template("informations.html")
   
-  @app.route("/valentin")
-  def val():
-    return render_template("valentin.html")
+  # @app.route("/valentin")
+  # def val():
+  #   return render_template("valentin.html")
   
   # @app.route("/weekend-client")
   # def wk_client():

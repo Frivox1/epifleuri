@@ -8,6 +8,16 @@ text-align: center;
 color: #fff;
 }
 
+.soutien {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.soutien img {
+  max-width: 50%;
+  border-radius: 20px;
+}
+
 .product-grid {
 display: flex;
 flex-wrap: wrap;
