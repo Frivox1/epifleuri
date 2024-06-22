@@ -22,12 +22,12 @@
             <br>
             <br>
             <br>
-            <a href="/mai"><button>Le mois de mai</button></a>
+            <a href="/produit"><button>Nos produits</button></a>
         </div>
     </section>
 
-    <div class="soutien">
-        <img src="{{ url_for('static', filename='images/1mai/soutien.jpeg') }}">
+    <div class="promo">
+        <p>Profitez de <span class="highlight">-50%</span> sur tous nos bouquets préparés tous les <span class="highlight">lundi</span> !</p>
     </div>
 
     <section id="products-grid">
@@ -47,6 +47,13 @@
                 <p>Choisissez notre magasin pour un style de vie plus écologique.</p>
             </div>
         </div>
+    </section>
+
+        <div class="promo">
+            <p>Profitez de <span class="highlight">2</span> Too Good To Go <span class="highlight">par semaine</span></p>
+        </div>
+
+    <section id="products-grid">
         <div class="product-grid-item">
             <img src="{{ url_for('static', filename='images/cours_art_floral.jpeg') }}" alt="Product 1">
             <div class="description">

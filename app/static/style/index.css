@@ -8,14 +8,17 @@ text-align: center;
 color: #fff;
 }
 
-.soutien {
+.promo {
+  font-size: 50px;
   text-align: center;
-  margin-bottom: 100px;
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-top: 130px;
+  margin-bottom: 130px;
 }
 
-.soutien img {
-  max-width: 50%;
-  border-radius: 20px;
+.highlight {
+  color:#d83271;
 }
 
 .product-grid {

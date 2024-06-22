@@ -168,3 +168,16 @@ color: #fff;
   background-color : #d83271;
   padding: 10px;
 }
+
+.actu {
+  display: flex;
+  justify-content: center; /* Centre les images horizontalement */
+  align-items: center; /* Centre les images verticalement */
+  gap: 15px; /* Ajoute un espace entre les images */
+}
+
+.actu img {
+  width: 40%; /* Réduit la taille des images à 45% de la largeur du conteneur */
+  height: auto; /* Maintient le ratio de l'image */
+  border-radius: 20px;
+}
