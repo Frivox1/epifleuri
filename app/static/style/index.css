@@ -8,17 +8,60 @@ text-align: center;
 color: #fff;
 }
 
-.promo {
-  font-size: 50px;
-  text-align: center;
-  margin-right: 70px;
-  margin-left: 70px;
-  margin-top: 130px;
-  margin-bottom: 130px;
+.noel {
+  text-align: center; /* Centrer tout le contenu */
+  padding: 20px;
+  background-color: #f1f1f1; /* Couleur de fond douce */
+  border-radius: 10px; /* Bordures arrondies */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée douce */
 }
 
-.highlight {
-  color:#d83271;
+.noel-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 20px; /* Limite la largeur de l'image */
+  transform: rotate(90deg); /* Rotation de l'image de 90 degrés */
+  object-fit: contain; /* L'image s'ajuste sans déformation */
+  margin-bottom: 20px; /* Espacement sous l'image */
+}
+
+.horaires {
+  font-family: 'Aclonica', sans-serif;
+  color: #333; /* Couleur du texte */
+  margin-top: 30px;
+  background-color: #f1f1f1; /* Fond de la section des horaires */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+.horaires p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #d83271; /* Couleur pour le titre */
+}
+
+.horaires ul {
+  list-style-type: none;
+  padding: 0;
+  color: #d83271;
+}
+
+.horaires li {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #555; /* Couleur gris clair pour les horaires */
+}
+
+.horaires li strong {
+  color: #2980b9; /* Couleur bleue pour les jours */
+}
+
+.horaires p:last-child {
+  font-size: 16px;
+  color: #9b59b6; /* Couleur violette pour l'information de clôture des commandes */
+  font-style: italic;
 }
 
 .product-grid {
