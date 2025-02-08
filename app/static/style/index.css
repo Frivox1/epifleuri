@@ -8,23 +8,6 @@ text-align: center;
 color: #fff;
 }
 
-.noel {
-  text-align: center; /* Centrer tout le contenu */
-  padding: 20px;
-  background-color: #f1f1f1; /* Couleur de fond douce */
-  border-radius: 10px; /* Bordures arrondies */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée douce */
-}
-
-.noel-image {
-  display: block;
-  margin: 0 auto;
-  max-width: 20px; /* Limite la largeur de l'image */
-  transform: rotate(90deg); /* Rotation de l'image de 90 degrés */
-  object-fit: contain; /* L'image s'ajuste sans déformation */
-  margin-bottom: 20px; /* Espacement sous l'image */
-}
-
 .horaires {
   font-family: 'Aclonica', sans-serif;
   color: #333; /* Couleur du texte */
@@ -36,9 +19,9 @@ color: #fff;
 }
 
 .horaires p {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   color: #d83271; /* Couleur pour le titre */
 }
 

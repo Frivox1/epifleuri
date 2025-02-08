@@ -29,9 +29,9 @@ def create_app(test_config=None):
   def info():
     return render_template("informations.html")
   
-  # @app.route("/valentin")
-  # def val():
-  #   return render_template("valentin.html")
+  @app.route("/valentin")
+  def val():
+    return render_template("valentin.html")
   
   # @app.route("/weekend-client")
   # def wk_client():
